@@ -1,0 +1,29 @@
+@media(max-width:1200px){
+    
+}
+@media(max-width:992px){
+
+}
+@media(max-width:768px){
+
+}
+@media(max-width:576px){
+   .nav_list{
+       flex-direction: column;
+       text-align: center;
+       margin: 0 auto;
+   }
+   .logo{
+    justify-content: center;
+    
+   }
+   .imag{
+       width: 60%;
+   }
+   .left__title{
+       width: 60%;
+   }
+   .left__text{
+       width: 60%;
+   }
+}

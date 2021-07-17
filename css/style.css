@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.container{
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.nav__blog{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+.nav_list{
+    display: flex;
+}
+.logo{
+    font-weight: 700;
+    font-size: 20px;
+    color: #cb0a15;
+}
+.nav_link{
+    font-size: 18px;
+    color: #4d4d4d;
+    font-weight: 700;
+    padding: 20px 25px;
+}
+.nav_link:hover{
+    color: #fff;
+    background-color: #515151;
+}
+.header__title{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    padding: 190px 0 45px;
+    color: #cb0a15;
+}
+.header__subtitle{
+    font-size: 18px;
+    color: #4d4d4d;
+    text-align: center;
+}
+header{
+    background: url('../img/header_bg_image.jpg') no-repeat center / cover;
+    height: 660px;
+}
+span{
+    color: #000;
+    font-size: 20px;
+    font-weight: 700;
+}
+/* main */
+.blog{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0;
+}
+.right_1{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.left, .right{
+    width: 538px;
+}
+.right_1 img{
+    padding-right: 30px;
+}
+.left__title{
+    font-size: 25px;
+    font-weight: 700;
+    padding: 60px 0 35px;
+}
+.left__text, .right__text{
+    color: #919191;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.right__title{
+    font-size: 20px;
+    color: #000;
+    font-weight: 700;
+    padding-bottom: 25px;
+}
+
+/* main end */
+
+/* footer */
+.footer{
+    background: #f9f9f9;
+    padding: 45px 0;
+}
+.foot_blog{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 180px;
+}
+.foot_title{
+    padding-bottom: 20px;
+}
+.sp{
+    color: #cb0a15;
+}
+.foot__link{
+    color: #828080;
+    text-decoration: underline;
+}
+.foot__link:hover{
+    color: #cb0a15;
+}
+/* footer end */
